@@ -4,21 +4,12 @@ body {
       background: #DEE7E7;
       color: #333;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 1.5rem;
       height: 100vh;
       text-align: center;
     }
     .container {
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-      background: #F4FAFF;
-      margin-top: 7.5rem;
-    }
-    .project {
       padding: 2rem;
       border-radius: 1rem;
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -36,36 +27,3 @@ body {
       color: #0D3B66;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
-    }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
-}
-nav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  z-index: 1000;
-}
