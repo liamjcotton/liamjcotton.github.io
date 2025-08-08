@@ -1,29 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Mona%20Sans:700|Mona%20Sans:400');
+
 body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #DEE7E7;
-      color: #333;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-    .container {
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-      background: #F4FAFF;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      color: #666;
-      font-size: 1rem;
-    }
-    a {
-      color: #0D3B66;
-      text-decoration: none;
-    }
+  font-family: 'Mona Sans';
+  font-weight: 400;
+  background-color: #fbf4ef;
+  justify-items: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Mona Sans';
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%; /* 16px */
+} 
+
+h1 {
+  font-size: 4.210rem; /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.750rem; /* 12px */
+}
+
+a {
+  color: #f37520;
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  background: #F4FAFF;
+  justify-items: center;
+  max-width: 50%;
+  margin: auto;
+}
