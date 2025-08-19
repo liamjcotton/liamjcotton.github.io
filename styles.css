@@ -10,6 +10,19 @@ body {
   line-height: 1.6;
 }
 
+footer {
+  width: 100%;
+  border-top: 1px solid #814112;
+  padding: 1rem;
+  background-color: #16100a;
+  color: #F4FAFF;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1001;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Mona Sans';
   font-weight: 700;
@@ -125,9 +138,9 @@ li a:hover {
 
 .container {
   padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-  background: #16100a;
+  border-radius: 25px;
+  border: 1px solid #814112;
+  background-color: #0c0a08;
   justify-items: center;
   max-width: 50%;
   margin: auto;
