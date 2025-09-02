@@ -148,22 +148,3 @@ li a:hover {
   text-align: center;
   margin-bottom: 2rem;
 }
-
-.droste-effect {
-  padding: 2rem;
-  border-radius: 25px;
-  border: 1px solid #814112;
-  background-color: #0c0a08;
-  justify-items: center;
-  max-width: 50%;
-  margin: auto;
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border: 1px solid #814112;
-}
