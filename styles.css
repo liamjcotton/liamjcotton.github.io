@@ -8,6 +8,7 @@ body {
   margin-top: 6rem;
   color: #F4FAFF;
   line-height: 1.6;
+  margin-bottom: 8rem;
 }
 
 footer {
@@ -145,4 +146,5 @@ li a:hover {
   max-width: 50%;
   margin: auto;
   text-align: center;
+  margin-bottom: 2rem;
 }
